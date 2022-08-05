@@ -70,7 +70,7 @@ header {
     /* background-image: url('Pictures/20220108_151858.jpg'); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Pictures/20220108_151858.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     display: flex;
     align-items: flex-end;
     justify-content: center;

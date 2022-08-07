@@ -10,7 +10,11 @@
     transition: all .2s linear;
 }
 
-html {
+html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
     overflow-x: hidden;
     scroll-padding-top: 5.5rem;
     scroll-behavior: smooth;
@@ -90,7 +94,7 @@ header {
 .line {
     width: 300px;
     height: 4px;
-    background: #009688;
+    background: rgb(224, 149, 10);;
     margin: 5px auto;
     border-radius: 5px;
     margin-bottom: 70px;
@@ -107,7 +111,7 @@ header {
     /* background: #fc036b; */
     text-align: center;
     border-radius: 25px;
-    border: 2px solid #009688;
+    border: 2px solid rgb(224, 149, 10);;
     color: whitesmoke;
     font-weight: bold;
     background: transparent;
@@ -128,7 +132,7 @@ header {
 .active,
 .btn:hover {
     color: #fff;
-    background-color: #009688;
+    background-color: rgb(224, 149, 10);
     letter-spacing: .1rem;
     border: 2px solid whitesmoke
 }
@@ -143,7 +147,7 @@ header {
 .line2 {
     width: 300px;
     height: 4px;
-    background: #009688;
+    background: rgb(224, 149, 10);;
     margin: 5px auto;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -195,7 +199,7 @@ header {
 
 .services2 .image img {
     width: 80%;
-    border: 4px solid #009688;
+    border: 4px solid rgb(224, 149, 10);;
     border-radius: 20px;
 }
 
@@ -209,7 +213,7 @@ header {
 }
 
 .services2 .content i {
-    color: #009688;
+    color: rgb(224, 149, 10);;
     font-size: 30px;
 
 }
@@ -228,7 +232,7 @@ header {
 
 .services3 .image img {
     width: 60%;
-    border: 4px solid #009688;
+    border: 4px solid rgb(224, 149, 10);;
     border-radius: 20px;
 }
 
@@ -237,7 +241,7 @@ header {
 }
 
 .services3 .content i {
-    color: #009688;
+    color: rgb(224, 149, 10);;
     font-size: 30px;
 }
 
@@ -248,7 +252,7 @@ header {
 
 .title {
     font-size: 5vmin;
-    color: #009688;
+    color: rgb(224, 149, 10);;
 }
 
 .services4 {
@@ -265,12 +269,12 @@ header {
 
 .services4 .image img {
     width: 60%;
-    border: 4px solid #009688;
+    border: 4px solid rgb(224, 149, 10);;
     border-radius: 20px;
 }
 
 .services4 .content i {
-    color: #009688;
+    color: rgb(224, 149, 10);;
     font-size: 30px;
 }
 
@@ -289,7 +293,7 @@ header {
 
 .services5 .image img {
     width: 80%;
-    border: 4px solid #009688;
+    border: 4px solid rgb(224, 149, 10);;
     border-radius: 20px;
 }
 
@@ -298,7 +302,7 @@ header {
 }
 
 .services5 .content i {
-    color: #009688;
+    color: rgb(224, 149, 10);;
     font-size: 30px;
 }
 
@@ -374,6 +378,87 @@ header {
     .nav-links li {
         margin: 30px auto;
     }
+    .services2{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+    .services2 .image img {
+        width: 100%;
+        
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .services2 .image {
+        width: 100%;
+    }
+.services3 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.services3 .image {
+    width: 100%;
+}
+    .services3{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+.services4 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.services4 .image {
+    width: 100%;
+}
+    .services4{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+.services5 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin: 19px auto 0;
+
+}
+.services5 .image {
+    width: 100%;
+}
+.services5{
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.services5 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services4 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services3 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services2 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services .paragraph p{
+    width: 100%;
+    text-align: justify;
+}
+.ending p{
+    width: 100%;
+    text-align: justify;
+}
 }
 
 @media only screen and (max-width:600px) {
@@ -399,5 +484,85 @@ header {
         text-align: center;
 
     }
+    .services2{
+        flex-direction: column;
+        margin: 0 auto;
 
+    }
+    .services2 .image img {
+        width: 100%;
+ 
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .services2 .image {
+        width: 100%;
+    }
+.services3 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.services3 .image {
+    width: 100%;
+}
+    .services3{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+.services4 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.services4 .image {
+    width: 100%;
+}
+    .services4{
+        flex-direction: column;
+        margin: 0 auto;
+
+    }
+.services5 .image img {
+    width: 100%;
+
+    border-radius: 20px;
+    margin: 19px auto 0;
+
+}
+.services5 .image {
+    width: 100%;
+}
+.services5{
+    flex-direction: column;
+    margin: 0 auto;
+
+}
+.services5 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services4 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services3 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services2 .content {
+    width: 100%;
+    text-align: justify;
+}
+.services .paragraph p{
+    width: 100%;
+    text-align: justify;
+}
+.ending p{
+    width: 100%;
+    text-align: justify;
+}
 }

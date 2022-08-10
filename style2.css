@@ -17,6 +17,9 @@ section:nth-child(odd) {
 .sec-pad{
 	padding: 30px 0;
 }
+section {
+    padding: 2rem 9%;
+}
 #active {
     color: rgb(0, 0, 0);
     background-color: rgb(224, 149, 10);
@@ -37,16 +40,21 @@ section:nth-child(odd) {
 	padding: .5rem 1rem;
 	line-height: 2.3;
 }
-
+	i.fa-solid.fa-phone {
+		font-size: 40px;
+		padding-right: 6px;
+		color: black;
+	}
+	
 .navbar-nav a {
-	font-size: 15px;
+	font-size: 20px;
 	text-transform: uppercase;
 	font-weight: 500;
 }
 
 .navbar-light .navbar-brand {
 	color: #000;
-	font-size: 25px;
+	font-size: 35px;
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -78,14 +86,8 @@ section:nth-child(odd) {
 .portfolio .card {
 	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
 }
-.team .card {
-	box-shadow: 15px 15px 40px rgba(0, 0, 0, 0.15);
-}
 .services .card-body i {
 	font-size: 50px;
-}
-.team .card-body i {
-	font-size: 20px;
 }
 .row .card .middle-card p{
 	width: 100%;
@@ -94,6 +96,119 @@ section:nth-child(odd) {
 }
 .row .card .last-card p{
 	height: 240px;
+}
+.services .heading h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 7vmin;
+}
+.services {
+	background-color: rgb(53, 10, 10);
+	justify-content: center;
+	align-items: center;
+}
+.ending h1 {
+	color: whitesmoke;
+	font-size: 7vmin;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 55px;
+}
+
+.ending p {
+	color: whitesmoke;
+	width: 70%;
+	text-align: center;
+	margin: 30px auto;
+}
+
+.ending a {
+	color: whitesmoke;
+	border-color: whitesmoke;
+	padding: 5px 10px;
+}
+.services .paragraph p {
+	width: 70%;
+	text-align: justify;
+	margin: 0 auto;
+}
+.btn {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 15px;
+    /* background: #fc036b; */
+    text-align: center;
+    border-radius: 25px;
+    border: 2px solid rgb(256, 217, 0);
+    color: whitesmoke;
+    font-weight: bold;
+    background: transparent;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    font-weight: bold;
+}
+.btn-primary {
+    color: black;
+    display: block;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn:hover {
+    color: black;
+	background-color: rgb(256, 217, 0);
+    letter-spacing: .1rem;
+    border: 2px solid whitesmoke;
+    font-weight: bolder;
+    
+}
+.footer {
+    background-color: #965500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.7vmin;
+}
+
+.footer .image img {
+    width: 60%;
+}
+
+.footer .image {
+    width: 30%;
+    align-items: center;
+}
+
+.footer .address {
+    width: 30%;
+    text-align: center;
+}
+
+.footer .service-area {
+    width: 30%;
+    text-align: center;
+}
+.footer{
+    padding: 1%;
+    margin: 0;
+}
+
+.contact {
+    color: rgb(255, 0, 0);
+    font-size: 1em;
+}
+
+.content-link {
+    color: black;
+    cursor: pointer;
+}
+
+.content-link:hover {
+    color: red;
+    text-decoration: underline;
+    transition: none;
 }
 
 
@@ -104,6 +219,18 @@ section:nth-child(odd) {
 	.img-area img {
 		width: 100%;
 	}
+	.ending p {
+        width: 100%;
+        text-align: justify;
+    }
+    .navbar-nav a {
+        font-size: 15px;
+    }
+    
+    .navbar-light .navbar-brand {
+       
+        font-size: 25px;
+    }
 }
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
@@ -115,4 +242,55 @@ section:nth-child(odd) {
 	.card {
 		margin-bottom: 30px;
 	}
+	h3{
+		font-weight: bolder;
+	}
+	h1{
+		font-weight: bolder;
+	}
+	.btn {
+        padding: 3px 10px;
+        text-align: center;
+
+    }
+	i.fa-solid.fa-phone {
+		font-size: 40px;
+		padding-left: 39px;
+		color: black;
+	}
+	.footer .service-area{
+        width: 40%;
+    }
+    .footer .image{
+        width: 50%;
+    }
+    .footer{
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    .footer .address{
+        padding-bottom: 10px;
+    }
+    .footer span{
+        font-size: 20px;
+        width: 100%;
+    }
+    .service-area .contact{
+        font-size: 25px;
+        font-weight: bolder;
+    }
+	.ending p {
+        width: 100%;
+        text-align: justify;
+        font-size: smaller;
+    }
+	.navbar-nav a {
+        font-size: 15px;
+    }
+    
+    .navbar-light .navbar-brand {
+       
+        font-size: 25px;
+    }
 }

@@ -1,12 +1,11 @@
 /* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
 
-* {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap') * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat' ,'Nunito', sans-serif;
+    font-family: 'Montserrat', 'Nunito', sans-serif;
     text-transform: capitalize;
     transition: all .2s linear;
 }
@@ -269,10 +268,19 @@ form input, form textarea{
     color: rgb(255, 0, 0);
     font-size: 1em;
 }
+.service-area a{
+    text-decoration: none;
 
+}
 .content-link {
     color: rgb(255, 255, 255);
     cursor: pointer;
+}
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: #fff;
 }
 
 .content-link:hover {
@@ -280,7 +288,11 @@ form input, form textarea{
     text-decoration: underline;
     transition: none;
 }
-
+iframe{
+    width: 100%;
+    height: 500px;
+    border: 5px solid rgb(256, 217, 0);
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.card {
@@ -365,12 +377,21 @@ form input, form textarea{
     .contact-section{
         flex-direction: column;
     }
+    
     .navbar-nav a {
         font-size: 15px;
     }
     
     .navbar-light .navbar-brand {
        
+        font-size: 20px;
+    }
+    i.fa-solid.fa-phone {
+        font-size: 40px;
+        padding-left: 39px;
+        color: black;
+    }
+    i.fa-solid.fa-phone {
         font-size: 25px;
     }
 }

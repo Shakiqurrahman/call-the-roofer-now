@@ -127,7 +127,7 @@ header {
     width: 100vw;
     height: 100vh;
     /* background-image: url('Pictures/20220108_151858.jpg'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Pictures/20220108_151858.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/roof-reparing.jpg);
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -408,6 +408,10 @@ header {
 .contact {
     color: rgb(255, 0, 0);
     font-size: 1em;
+}
+.service-area a{
+    text-decoration: none;
+
 }
 
 .content-link {
@@ -756,6 +760,9 @@ i.fa-solid.fa-phone {
     
     .navbar-light .navbar-brand {
        
+        font-size: 20px;
+    }
+    i.fa-solid.fa-phone {
         font-size: 25px;
     }
 }

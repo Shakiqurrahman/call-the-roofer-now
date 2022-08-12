@@ -278,6 +278,11 @@ form input, form textarea{
     text-decoration: underline;
     transition: none;
 }
+iframe{
+    width: 100%;
+    min-height: 500px;
+    border: 5px solid white;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {

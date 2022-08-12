@@ -66,7 +66,7 @@ section:nth-child(odd) {
 
 .navbar-light .navbar-brand {
     color: #000;
-    font-size: 20px;
+    font-size: 19px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -127,7 +127,7 @@ header {
     width: 100vw;
     height: 100vh;
     /* background-image: url('Pictures/20220108_151858.jpg'); */
-    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(Pictures/20220108_151858.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/roof-reparing.jpg);
     background-size: cover;
     background-position: bottom;
     display: flex;

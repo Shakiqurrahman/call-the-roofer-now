@@ -428,8 +428,8 @@ header {
 }
 
 i.fa-solid.fa-phone {
-    font-size: 30px;
-    /* padding-right: 6px; */
+    font-size: 20px;
+    padding-right: 6px;
     color: black;
 }
 
@@ -733,4 +733,8 @@ i.fa-solid.fa-phone {
     .footer {
         width: 100%;
         height: 2%;
-    }}
+    }
+    .email a{
+        font-size: 15px;
+    }
+}

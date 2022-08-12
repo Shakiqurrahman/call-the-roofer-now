@@ -67,7 +67,7 @@ section {
 
 .navbar-light .navbar-brand {
     color: #000;
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 2px;
@@ -197,7 +197,7 @@ section {
 }
 i.fa-solid.fa-phone {
     font-size: 20px;
-    /* padding-right: 6px; */
+    padding-right: 6px;
     color: black;
 }
 .fa-phone-square-alt{
@@ -296,11 +296,6 @@ form input, form textarea{
     .navbar-nav {
 		text-align: center;
 	}
-    i.fa-solid.fa-phone {
-		font-size: 20px;
-		padding-left: 39px;
-		color: black;
-	}
     .contact-section{
         flex-direction: column;
     }
@@ -327,11 +322,6 @@ form input, form textarea{
     .about-text {
 		padding-top: 50px;
 	}
-	.fa-solid.fa-phone {
-		font-size: 30px;
-		padding-left: 39px;
-		color: black;
-	}
 	.footer .service-area{
         width: 40%;
     }
@@ -356,4 +346,12 @@ form input, form textarea{
     }
     .contact-section{
         flex-direction: column;
-    }}
+    }
+    .email a{
+        font-size: 15px;
+    }
+}
+
+
+
+    

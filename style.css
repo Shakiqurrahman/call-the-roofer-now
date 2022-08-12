@@ -1,5 +1,6 @@
 /* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -246,6 +247,7 @@ header {
 .services .btn {
     justify-content: center;
     align-items: center;
+    letter-spacing: normal;
 }
 
 .services2 {
@@ -734,7 +736,8 @@ i.fa-solid.fa-phone {
         width: 100%;
         height: 2%;
     }
-    .email a{
+
+    .email a {
         font-size: 15px;
     }
 }
